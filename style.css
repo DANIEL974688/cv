@@ -35,7 +35,6 @@ body
 /*Entête*/
 header
 {
-justify-content: space-around;
 margin:10px 10px 10px 10px;
 width:1200 px;
 height: 350px;
@@ -44,16 +43,15 @@ img
 {
 width: 300px;
 height: 300px;
-border-radius: 250px;
+border-radius: 250px;background-color:#92ccf6;
 }
 .col-4
 {
-background-color:#92ccf6;
+
 }
 .col-8
 {
 margin: 80px 0 10px 0;
-text-align: center;
 }
 /*Colonne gauche*/
 
