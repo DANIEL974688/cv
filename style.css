@@ -6,26 +6,27 @@
 }
 body
 {
-  font-family: 'cac_champagneregular', Arial, serif;
-  color:#aec8cf;
-  font-size: medium;
-  font-weight: 200;
-  padding: 15px;
- }
- h1
- {
-    color:#220f82;
-    padding-left: 10px;
-    font-size: 40px;
-    }
-    h2
-    {
-       color:#7316f4;
-       font-size: 30px;
-      }
-    span {
-        color:#af7913;
-      }
+font-family: 'cac_champagneregular', Arial, serif;
+color:#aec8cf;
+font-size: medium;
+font-weight: 200;
+padding: 15px;
+}
+h1
+{
+color:#220f82;
+padding-left: 10px;
+font-size: 40px;
+}
+h2
+{
+color:#7316f4;
+font-size: 30px;
+}
+span
+{
+color:#af7913;
+}
       
 /*Entête*/
 header
@@ -40,6 +41,7 @@ width: 300px;
 height: 300px;
 border-radius: 50%;
 margin:40px 30px 20px 30px;
+border :5px black solid;
 }
 
 .col-8
@@ -58,5 +60,6 @@ background-color:#424242;
 padding : 10px;
 text-align: center;
 color: #ffffbb;
+margin: 0 -15px 0 -15px;
 }
 /*Colonne droite*/
