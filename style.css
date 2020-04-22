@@ -10,7 +10,6 @@ font-family: 'cac_champagneregular', Arial, serif;
 color:#aec8cf;
 font-size: medium;
 font-weight: 200;
-padding: 15px;
 }
 h1
 {
@@ -44,10 +43,6 @@ margin:40px 30px 20px 30px;
 border :10px black solid;
 }
 
-.col-8
-{
-margin: 80px 0 10px 0;
-}
 /*Colonne gauche*/
 
 .col-lg-4
