@@ -8,11 +8,7 @@ i.far
 {
 border: 3px solid grey;
 }
-i.fas, i.fab
-{
-border: 3px solid #33cb1b;
-}
-body
+
 {
 font-family: 'cac_champagneregular', Arial, serif;
 color:#aec8cf;
@@ -79,12 +75,18 @@ margin:0 10px 0 10px;
   color: #DAA520;
   font-size: 45px; 
   border-radius: 15px;
+  border: 3px solid  #33cb1b ;
 }
 .fa-walking, .fa-tree
 {
   color:green;
   font-size:45px;
   border-radius: 15px;
+  border: 3px solid  #aeb6bf;
+}
+.fa-mobile-alt
+{
+font-size:45px;
 }
 /*Colonne droite*/
 ul
@@ -93,12 +95,9 @@ list-style-type: disc;
 }
 ol
 {
-  list-style-type: square;
+list-style-type: square;
 }
-hr 
+.fa-university, .fa-business-time, .fa-edit
 {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+font-size:45px;border: 3px solid  #85929e ;
 }
