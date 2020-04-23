@@ -4,10 +4,14 @@
   font-family: 'cac_champagneregular';
   src: url('fonts/Rubik-Regular.ttf');
 }
-i.fab {
-    border: 3px solid #e0ec45;
-  }
-
+i.far
+{
+border: 3px solid grey;
+}
+i.fas, i.fab
+{
+border: 3px solid #33cb1b;
+}
 body
 {
 font-family: 'cac_champagneregular', Arial, serif;
@@ -19,16 +23,16 @@ h1
 {
 color:#220f82;
 padding-left: 10px;
-font-size: 40px;
+font-size: 45px;
 }
 h2
 {
 color:#c177de;
-font-size: 30px;
+font-size: 40px;
 }
 span
 {
-font-size: 25px;
+font-size: 35px;
 color:#af7913;
 }
 .container
