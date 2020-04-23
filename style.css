@@ -4,14 +4,10 @@
   font-family: 'cac_champagneregular';
   src: url('fonts/Rubik-Regular.ttf');
 }
-@counter-style thumbs
-{
-  system: cyclic;
-  symbols: "\1F44D";
-  suffix: " ";
-}
+i.fab {
+    border: 3px solid #e0ec45;
+  }
 
-}
 body
 {
 font-family: 'cac_champagneregular', Arial, serif;
@@ -27,7 +23,7 @@ font-size: 40px;
 }
 h2
 {
-color:#7316f4;
+color:#c177de;
 font-size: 30px;
 }
 span
@@ -74,7 +70,9 @@ aside
 margin:0 10px 0 10px;
 
 }
+
 /*Colonne droite*/
-ul{
-  list-style: thumbs;
+ul
+{
+list-style-type: disc;
 }
