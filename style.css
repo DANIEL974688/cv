@@ -60,10 +60,9 @@ background-color:#92ccf6;
 aside h3
 {
 background-color:#424242;
-padding : 10px;
 text-align: center;
 color: #ffffbb;
-margin: 0 -15px 0 -15px;
+margin: 0 -25px 0 -25px;
 }
 aside
 {
@@ -101,3 +100,19 @@ list-style-type: square;
 {
 font-size:45px;border: 3px solid  #85929e ;
 }
+/*Responsive Media queries*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px)
+ { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px)
+ { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px)
+ { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)
+ { ... }
