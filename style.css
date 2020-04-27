@@ -42,14 +42,6 @@ margin: 10 px 10 px 0 10px;
 width:1200 px;
 height: 300px;
 }
-img
-{
-width: 250px;
-height: 250px;
-border-radius: 50%;
-margin:40px 30px 20px 30px;
-border :10px black solid;
-}
 
 /*Colonne gauche*/
 
@@ -103,16 +95,64 @@ font-size:45px;border: 3px solid  #85929e ;
 /*Responsive Media queries*/
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px)
- { ... }
+ {
+img
+{
+display: none;
+} 
+.col-lg-4
+{
+background-color:#92ccf6;
+}
+ } 
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px)
- { ... }
+ { 
+   img
+  {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin:40px 30px 20px 30px;
+  border :10px black solid;
+  }
+  .col-lg-4
+{
+background-color:#92ccf6;
+}
+ }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px)
- { ... }
+ { 
+   img
+  {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin:40px 30px 20px 30px;
+  border :10px black solid;
+  }
+  .col-lg-4
+{
+background-color:#92ccf6;
+}
+ }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px)
- { ... }
+ { 
+   img
+  {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin:40px 30px 20px 30px;
+  border :10px black solid;
+  }
+  .col-lg-4
+{
+background-color:#92ccf6;
+}
+   }
