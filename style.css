@@ -15,14 +15,7 @@ color:#aec8cf;
 font-size: medium;
 font-weight: 200;
 }
-img
-{
-width: 250px;
-height: 250px;
-border-radius: 50%;
-margin:40px 30px 20px 30px;
-border :10px black solid;
-}
+
 
 h1
 {
@@ -54,7 +47,7 @@ height: 300px;
 
 /*Colonne gauche*/
 
-.col-lg-4
+.col_left
 {
 background-color:#92ccf6;
 }
@@ -107,12 +100,12 @@ font-size:45px;border: 3px solid  #85929e ;
  {
 img
 {
-    border-radius: 50%;
+  border-radius: 50%;
   margin:40px 30px 20px 30px;
   border :10px black solid;
   max-width: 100%;
 } 
-.col-lg-4
+.col_left
 {
 background-color:none;
 }
@@ -130,7 +123,7 @@ background-color:none;
   border :10px black solid;
   max-width: 100%;
   }
-  .col-lg-4
+  .col_left
 {
 background-color:none;
 }
@@ -148,7 +141,7 @@ background-color:none;
   border :10px black solid;
   max-width: 100%;
   }
-  .col-lg-4
+  .col_left
 {
 background-color:#92ccf6;
 }
@@ -166,7 +159,7 @@ background-color:#92ccf6;
   border :10px black solid;
   max-width: 100%;
   }
-  .col-lg-4
+  .col_left
 {
 background-color:#92ccf6;
 }
