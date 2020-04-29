@@ -50,6 +50,7 @@ height: 300px;
 .col_left
 {
 background-color:#92ccf6;
+text-align: center;
 }
 aside h3
 {
@@ -83,11 +84,11 @@ font-size:45px;
 /*Colonne droite*/
 ul
 {
-list-style-type: disc;
+  list-style-image: url(puce_etoile-ConvertImage4.png);
 }
 ol
 {
-list-style-type: square;
+  list-style-image: url(puce_etoile2-ConvertImage.png);
 }
 .fa-university, .fa-business-time, .fa-edit
 {
