@@ -56,7 +56,6 @@ aside h3
 background-color:#424242;
 text-align: center;
 color: #ffffbb;
-margin: 0 -25px 0 -25px;
 }
 aside
 {
@@ -92,53 +91,56 @@ list-style-type: square;
 }
 .fa-university, .fa-business-time, .fa-edit
 {
-font-size:45px;border: 3px solid  #85929e ;
+font-size:45px;
+border: 3px solid  #85929e ;
 }
 /*Responsive Media queries*/
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px)
  {
-img
+.img-responsive
 {
+  display: block;  height: auto;
   border-radius: 50%;
   margin:40px 30px 20px 30px;
-  border :10px black solid;
   max-width: 100%;
 } 
-.col_left
+.col_left 
 {
 background-color:none;
+width: 100%;
 }
  } 
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px)
  { 
-   img
+  .img-responsive
   {
-  width: 250px;
-  height: 250px;
+  display: block;
+  max-width: 100%;
+  width: 250px;   height:250px;
   border-radius: 50%;
   margin:40px 30px 20px 30px;
-  border :10px black solid;
-  max-width: 100%;
+  border :3px black solid;
+ 
   }
   .col_left
 {
 background-color:none;
+width: 100%;
 }
  }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px)
  { 
-   img
+  .img-responsive
   {
-  width: 250px;
-  height: 250px;
+    display: block;width: 250px;   height:250px;
   border-radius: 50%;
   margin:40px 30px 20px 30px;
-  border :10px black solid;
+  border :3px black solid;
   max-width: 100%;
   }
   .col_left
@@ -150,17 +152,17 @@ background-color:#92ccf6;
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px)
  { 
-   img
+  .img-responsive
   {
-  width: 250px;
-  height: 250px;
+ display: block;   height: auto;  
   border-radius: 50%;
   margin:40px 30px 20px 30px;
-  border :10px black solid;
+  border :3px black solid;
   max-width: 100%;
   }
   .col_left
 {
 background-color:#92ccf6;
+min-width: 350px;
 }
    }
