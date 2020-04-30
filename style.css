@@ -47,11 +47,7 @@ height: 300px;
 
 /*Colonne gauche*/
 
-.col_left
-{
-background-color:#92ccf6;
-text-align: center;
-}
+
 aside h3
 {
 background-color:#424242;
@@ -66,16 +62,16 @@ margin:0 10px 0 10px;
 .fa-dog, .fa-cat
 {
   color: #DAA520;
-  font-size: 45px; 
-  border-radius: 15px;
-  border: 3px solid  #33cb1b ;
+  font-size: 65px; 
+  border-radius: 30px;
+  border: 5px solid  #33cb1b ;
 }
 .fa-walking, .fa-tree
 {
   color:green;
-  font-size:45px;
-  border-radius: 15px;
-  border: 3px solid  #aeb6bf;
+  font-size:75px;
+  border-radius: 30px;
+  border: 7px solid  #aeb6bf;
 }
 .fa-mobile-alt
 {
@@ -97,13 +93,14 @@ border: 3px solid  #85929e ;
 }
 /*Responsive Media queries*/
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px)
+@media (min-width: 576px) and (max-width: 767.98px)
  {
 .img-responsive
 {
-  display: block;  height: auto;
+  display: block;
+  height: auto;
   border-radius: 50%;
-  margin:40px 30px 20px 30px;
+  
   max-width: 100%;
 } 
 .col_left 
@@ -114,7 +111,7 @@ width: 100%;
  } 
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px)
+@media (min-width: 768px)and (max-width: 991.98px) 
  { 
   .img-responsive
   {
@@ -134,7 +131,7 @@ width: 100%;
  }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px)
+@media (min-width: 992px) and (max-width: 1199.98px)
  { 
   .img-responsive
   {
@@ -147,6 +144,8 @@ width: 100%;
   .col_left
 {
 background-color:#92ccf6;
+text-align: center;
+height: 100%;
 }
  }
 
@@ -155,8 +154,10 @@ background-color:#92ccf6;
  { 
   .img-responsive
   {
- display: block;   height: auto;  
+ display: block;
+ height: 250px;  
   border-radius: 50%;
+  width: 250px;
   margin:40px 30px 20px 30px;
   border :3px black solid;
   max-width: 100%;
@@ -165,5 +166,7 @@ background-color:#92ccf6;
 {
 background-color:#92ccf6;
 min-width: 350px;
+text-align: center;
+height: 100%;
 }
    }
