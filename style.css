@@ -84,11 +84,11 @@ aside
 /*création de puces personnalisés*/
 ul
 {
-  list-style-image: url(puce_etoile-ConvertImage4.png);
+  list-style-image: url(images/puce_etoile-ConvertImage4.png);
 }
 ol
 {
-  list-style-image: url(puce_etoile2-ConvertImage.png);
+  list-style-image: url(images/puce_etoile2-ConvertImage.png);
 }
 .fa-university, .fa-business-time, .fa-edit
 {
