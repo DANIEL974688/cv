@@ -1,4 +1,11 @@
-/* STYLE GENERAL*/
+/*PRESENTATION*/
+/*1 STYLE GENERAL*/
+/*2 En-tête*/
+/*3 Colonne gauche*/
+/*4 Colonne droite*/
+/*5 Responsive Media queries*/
+
+/* 1 STYLE GENERAL*/
 @font-face 
 { /* Définition d'une nouvelle police nommée CAC Champagne */
   font-family: 'cac_champagneregular';
@@ -36,7 +43,7 @@ span
 {
   margin: 0 15px 0 15px;
 }
-/*Entête*/
+/*2 Entête*/
 header
 {
   margin: 10 px 10 px 0 10px;
@@ -44,7 +51,7 @@ header
   height: 300px;
 }
 
-/*Colonne gauche*/
+/*3 Colonne gauche*/
 aside h3
 {
   background-color:#424242;
@@ -73,7 +80,7 @@ aside
 {
   font-size:45px;
 }
-/*Colonne droite*/
+/*4 Colonne droite*/
 /*création de puces personnalisés*/
 ul
 {
@@ -88,7 +95,7 @@ ol
   font-size:45px;
   border: 3px solid  #85929e ;
 }
-/*Responsive Media queries*/
+/*5 Responsive Media queries*/
 /*adaptation pour les changements de taille entre deux valeurs*/
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px)
