@@ -52,7 +52,7 @@ header
 }
 
 /*3 Colonne gauche*/
-aside h3
+aside h2
 {
   background-color:#424242;
   text-align: center;
@@ -65,14 +65,14 @@ aside
 .fa-dog, .fa-cat
 {
   color: #DAA520;
-  font-size: 65px; 
+  font-size: 55px; 
   border-radius: 30px;
   border: 5px solid  #33cb1b ;
 }
 .fa-walking, .fa-tree
 {
   color:green;
-  font-size:75px;
+  font-size:65px;
   border-radius: 30px;
   border: 7px solid  #aeb6bf;
 }
