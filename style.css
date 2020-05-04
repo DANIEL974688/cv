@@ -107,6 +107,11 @@ section
 {
   margin: 35px 15px 015px 35px;  
 }
+hr:after 
+{
+  background:#ffffbb;
+  font-size: 5px;
+}
 /*5 Responsive Media queries*/
 /*adaptation pour les changements de taille entre deux valeurs*/
 /* Small devices (landscape phones, 576px and up)*/
