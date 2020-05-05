@@ -34,10 +34,15 @@ h2
   color:#c177de;
   font-size: 40px;
 }
-span
+em
 {
   font-size: 35px;
   color:#af7913;
+}
+span
+{
+  text-decoration: underline;
+  text-decoration-color:#af7913;
 }
 .container
 {
@@ -57,6 +62,7 @@ aside h2
   background-color:#424242;
   text-align: center;
   color: #ffffbb;
+  margin: 0 -45px 0 -65px;
 }
 aside
 {
@@ -101,6 +107,11 @@ section
 {
   margin: 35px 15px 015px 35px;  
 }
+hr:after 
+{
+  background:#ffffbb;
+  font-size: 5px;
+}
 /*5 Responsive Media queries*/
 /*adaptation pour les changements de taille entre deux valeurs*/
 /* Small devices (landscape phones, 576px and up)*/
@@ -118,6 +129,10 @@ section
     background-color:none;
     width: 100%;
   }
+  section
+  {
+    width: 100%;
+  }
 } 
 
 /* Medium devices (tablets, 768px and up)*/
@@ -129,6 +144,7 @@ section
     max-width: 100%;
     border-radius: 50%;
     border :3px black solid;
+    max-width: 100%;
    }
   .col_left
   {
