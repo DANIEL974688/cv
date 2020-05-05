@@ -129,6 +129,10 @@ hr:after
     background-color:none;
     width: 100%;
   }
+  section
+  {
+    width: 100%;
+  }
 } 
 
 /* Medium devices (tablets, 768px and up)*/
@@ -140,6 +144,7 @@ hr:after
     max-width: 100%;
     border-radius: 50%;
     border :3px black solid;
+    max-width: 100%;
    }
   .col_left
   {
