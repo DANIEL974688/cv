@@ -67,20 +67,24 @@ aside h2
 aside
 {
   margin:0 10px 0 10px;
+  text-align: left;
 }
 .fa-dog, .fa-cat
 {
   color: #DAA520;
-  font-size: 45px; 
-  border-radius: 30px;
-  border: 5px solid  #33cb1b ;
-}
+  font-size: 25px; 
+  border-radius: 100%;
+  border: 3px solid  #33cb1b ;
+  width: 45px;
+  height: 45px;
+  vertical-align: auto;
+ }
 .fa-walking, .fa-tree
 {
   color:green;
   font-size:45px;
-  border-radius: 30px;
-  border: 7px solid  #aeb6bf;
+  width: 55px;
+  height: 55px;
 }
 .fa-mobile-alt
 {
@@ -101,7 +105,6 @@ ol
 .fa-university, .fa-business-time, .fa-edit
 {
   font-size:45px;
-  border: 3px solid  #85929e ;
 }
 section
 {
@@ -111,6 +114,16 @@ hr:after
 {
   background:#ffffbb;
   font-size: 5px;
+}
+.cadreforet
+{
+  margin: 15px 35px 0 35px;
+  border: 3px solid green;
+  text-align: center;
+}
+.animaux
+{
+  text-align:center;
 }
 /*5 Responsive Media queries*/
 /*adaptation pour les changements de taille entre deux valeurs*/
