@@ -4,4 +4,5 @@ J'ai également utilisé html 5.
 J'ai procedé aux vérifications par W3c pour le html et vérifié le css 3.
 Il me semble être prôche des critéres définis pour le projet deux Openclassroom.
 Le travail du mentor est primordial.
-Bon, j'ai finalisé en désaccord avec la norme 3WC sur l'utilisation des listes par ul et ol.
+Bon, j'ai finalisé en accord avec la norme 3WC sur l'utilisation des listes par ul et ol.
+J'ai également finalisé les détails de mise en page.

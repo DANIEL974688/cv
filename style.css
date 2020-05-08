@@ -11,10 +11,6 @@
   font-family: 'cac_champagneregular';
   src: url('fonts/Rubik-Regular.ttf');
 }
-i.far
-{
-  border: 3px solid grey;
-}
 body
 {
   font-family: 'cac_champagneregular', Arial, serif;
@@ -48,6 +44,10 @@ span
 {
   margin: 0 15px 0 15px;
 }
+.fas
+{
+line-height: inherit;
+}
 /*2 Entête*/
 header
 {
@@ -62,11 +62,11 @@ aside h2
   background-color:#424242;
   text-align: center;
   color: #ffffbb;
-  margin: 0 -45px 0 -65px;
+  margin: 0 -45px 19px -65px;
 }
 aside
 {
-  margin:0 10px 0 10px;
+  margin:25px 10px 25px 10px;
   text-align: left;
 }
 .fa-dog, .fa-cat
@@ -77,14 +77,26 @@ aside
   border: 3px solid  #33cb1b ;
   width: 45px;
   height: 45px;
- 
- }
+  padding-top:5px;
+}
 .fa-walking, .fa-tree
 {
   color:green;
   font-size:45px;
   width: 55px;
   height: 55px;
+  padding-top: 5px;
+}  
+.cadreforet
+{
+  border: 3px solid green;
+  text-align: center;
+  margin: 0 45px 0 45px;
+}
+.animaux
+{
+  text-align:center;
+  
 }
 .fa-mobile-alt
 {
@@ -115,15 +127,10 @@ hr:after
   background:#ffffbb;
   font-size: 5px;
 }
-.cadreforet
+
+dt
 {
-  margin: 15px 35px 0 35px;
-  border: 3px solid green;
-  text-align: center;
-}
-.animaux
-{
-  text-align:center;
+ font-size: 18px;
 }
 /*5 Responsive Media queries*/
 /*adaptation pour les changements de taille entre deux valeurs*/
