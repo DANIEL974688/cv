@@ -146,8 +146,7 @@ dt
   } 
   .col_left 
   {
-    background-color:none;
-    width: 100%;
+     width: 100%;
   }
   section
   {
@@ -168,8 +167,7 @@ dt
    }
   .col_left
   {
-    background-color:none;
-    width: 100%;
+      width: 100%;
   }
 }
 
